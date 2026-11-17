@@ -1,6 +1,6 @@
 <div align="center">
 
-### NYX™ · AUTOMATION TOOL SUITE
+### NYX™ · INFRASTRUCTURE AUTOMATION
 
 <sub>BUILD · AUTOMATE · DEPLOY</sub>
 
@@ -86,6 +86,10 @@ correct, the recap should report `changed=0` and no failures.
 
 ---
 
-<div align="center">
-<sub>NYX · Infrastructure as Code</sub>
-</div>
+### COPYRIGHT
+
+Copyright © 2026 NYX. All rights reserved.
+
+No license is granted for use, modification, or redistribution,
+except as permitted by applicable law or GitHub’s Terms of Service.
+For permission requests, please contact the author.
