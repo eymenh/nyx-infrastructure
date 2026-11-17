@@ -1,0 +1,19 @@
+# Environnements et secrets locaux
+.env
+.env.*
+!.env.example
+.vault-password
+.vault-password.*
+secrets/
+
+# Environnement Python et fichiers générés
+.venv/
+__pycache__/
+*.pyc
+*.retry
+*.log
+
+# Fichiers temporaires des éditeurs
+*.swp
+*.swo
+*~

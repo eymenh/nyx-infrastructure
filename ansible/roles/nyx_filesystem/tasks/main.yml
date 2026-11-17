@@ -1,0 +1,9 @@
+---
+- name: Ensure NYX directories exist
+  ansible.builtin.file:
+    path: "{{ item }}"
+    state: directory
+    owner: "{{ nyx_filesystem_owner }}"
+    group: "{{ nyx_filesystem_group }}"
+    mode: "{{ nyx_filesystem_mode }}"
+  loop: "{{ nyx_filesystem_directories }}"

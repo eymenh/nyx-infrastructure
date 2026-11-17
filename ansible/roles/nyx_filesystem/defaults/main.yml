@@ -1,0 +1,9 @@
+---
+nyx_filesystem_directories:
+  - /etc/nyx
+  - /etc/nyx/compose
+  - /var/lib/nyx
+
+nyx_filesystem_owner: root
+nyx_filesystem_group: root
+nyx_filesystem_mode: "0750"
